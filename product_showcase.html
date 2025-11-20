@@ -1,95 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>product showcase</title>
-    <link rel="stylesheet" href="product_showcase.css">
-</head>
-<body>
-    <h2>Our Products</h2>
-    <div class="container">
-        
-        <div class="product-card">
-            <span>New</span>
-            <span>📱</span>
-            <h3>Smartphone Pro</h3>
-            <p>Latest technology with amaging camera and battery life.</p>
-            <div class="price">$699</div>
-            <button>Learn More</button>
 
-        </div>
-        <br>
-        <div class="product-card">
-            <span>Popular</span>
-            <span>💻</span>
-            <h3>Laptop Ultra</h3>
-            <p>Powerful performance for work and play.</p>
-            <p>$1299</p>
-            <aside>Learn More</aside>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>product showcase</title>
+        <link rel="stylesheet" href="product_showcase.css">
+    </head>
 
-        <div class="product-card">
-            <span>Sale</span>
-            <span>🎧</span>
-            <h3>Wireless Headphones</h3>
-            <p>Premium sound quality with noise cancellation.</p>
-            <p>$199</p>
-            <aside >Learn More</aside>
+    <body>
+        <header>
+            <h2>Our Products</h2>
+        </header>
+        <main>
+            <section class="product-cards">
+                <article class="card">
+                    <span class="badges">New</span>
+                    <span class="product-images">📱</span>
+                    <h3>Smartphone Pro</h3>
+                    <p class="description">Latest technology with amaging camera and battery life.</p>
+                    <p class="price">$699</p>
+                    <button class="btn">Learn More</button>
 
-        </div>
+                </article>
 
-        <div class="product-card">
-            
-            <span>⌚</span>
-            <h3>Smart Watch</h3>
-            <p>Track your fitness and stay connected.</p>
-            <p>$299</p>
-            <aside>Learn More</aside>
+                <article class="card">
+                    <span class="badges">Popular</span>
+                    <span class="product-images">💻</span>
+                    <h3>Laptop Ultra</h3>
+                    <p class="description">Powerful performance for work and play.</p>
+                    <p class="price">$1299</p>
+                    <button class="btn">Learn More</button>
+                </article>
 
-        </div>
-        
-        <table>
-            <thead>Product comparison</thead>
-            <tr>
-                <th scope="row">Feature</th>
-                <th scope="row">SmartPhone Pro</th>
-                <th scope="row">Laptop Ultra</th>
-                <th scope="row">Wireless Headphones</th>
-                <th scope="row">Smart Watch</th>
-            </tr>
-            <tr>
-                <td>Price</td>
-                <td>$699</td>
-                <td>$1299</td>
-                <td>$199</td>
-                <td>$299</td>
-            </tr>
-            <tr>
-                <td>Battery Life</td>
-                <td>24 hours</td>
-                <td>10 hours</td>
-                <td>30 hours</td>
-                <td>48 hours</td>
-            </tr>
-            <tr>
-                <td>Warranty</td>
-                <td>2 years</td>
-                <td>3 years</td>
-                <td>1 years</td>
-                <td>1 years</td>
-            </tr>
-            <tr>
-                <td>rating</td>
-                <td>4.8⭐</td>
-                <td>4.9⭐</td>
-                <td>4.7⭐</td>
-                <td>4.6⭐</td>
-            </tr>
-        </table>
-    </div>
-    <footer>
-        &copy;2024 Product Showcase
-    </footer>
-</body>
+                <article class="card">
+                    <span class="badges">Sale</span>
+                    <span class="product-images">🎧</span>
+                    <h3>Wireless Headphones</h3>
+                    <p class="description">Premium sound quality with noise cancellation.</p>
+                    <p class="price">$199</p>
+                    <button class="btn">Learn More</button>
+
+                </article>
+
+                <article class="card">
+
+                    <span class="product-images">⌚</span>
+                    <h3>Smart Watch</h3>
+                    <p class="description">Track your fitness and stay connected.</p>
+                    <p class="price">$299</p>
+                    <button class="btn">Learn More</button>
+
+                </article>
+            </section>
+
+            <aside class="pc-table">
+                <table>
+                    <h2>Product comparison</h2>
+                    <thead>
+                        <tr>
+                            <th scope="row">Feature</th>
+                            <th scope="row">SmartPhone Pro</th>
+                            <th scope="row">Laptop Ultra</th>
+                            <th scope="row">Wireless Headphones</th>
+                            <th scope="row">Smart Watch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Price</td>
+                            <td>$699</td>
+                            <td>$1299</td>
+                            <td>$199</td>
+                            <td>$299</td>
+                        </tr>
+                        <tr>
+                            <td>Battery Life</td>
+                            <td>24 hours</td>
+                            <td>10 hours</td>
+                            <td>30 hours</td>
+                            <td>48 hours</td>
+                        </tr>
+                        <tr>
+                            <td>Warranty</td>
+                            <td>2 years</td>
+                            <td>3 years</td>
+                            <td>1 years</td>
+                            <td>1 years</td>
+                        </tr>
+                        <tr class="lc">
+                            <td>rating</td>
+                            <td>4.8⭐</td>
+                            <td>4.9⭐</td>
+                            <td>4.7⭐</td>
+                            <td>4.6⭐</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </main>
+        <footer>
+            &copy;2024 Product Showcase
+        </footer>
+    </body>
+
 </html>
